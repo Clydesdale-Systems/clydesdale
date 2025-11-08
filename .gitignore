@@ -1,0 +1,13 @@
+# Node
+node_modules/
+dist/
+.angular/
+.env
+
+# Go
+bin/
+*.exe
+*.log
+
+# OS
+.DS_Store

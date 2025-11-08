@@ -1,0 +1,14 @@
+<section style="padding:24px;max-width:420px">
+  <h2>Login</h2>
+  <form (ngSubmit)="submit()">
+    <div>
+      <label>Email</label><br />
+      <input [(ngModel)]="email" name="email" type="email" required />
+    </div>
+    <div style="margin-top:12px">
+      <label>Password</label><br />
+      <input [(ngModel)]="password" name="password" type="password" required />
+    </div>
+    <button style="margin-top:16px">Sign in</button>
+  </form>
+</section>
